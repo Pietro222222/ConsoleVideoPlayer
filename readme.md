@@ -1,11 +1,14 @@
 # how it works
 
-video.mp4 
+video.mp4 <br> 
    | 
+<br>
    | -> video.gif -> play gif through viu
+<br>
    |
-   | -> video.mp3 \
-                   \-> play sound
+<br>   
+| -> video.mp3 \
+<br>                   \-> play sound
 
 cache: $HOME/.console_player/cache/{video-hash}/
                                     -> video.mp3
