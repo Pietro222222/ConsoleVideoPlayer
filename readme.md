@@ -25,7 +25,7 @@ thanks to [yxqsnz](https://github.com/yxqsnz)
 # know issues
 unfortunately the audio isnt something good, when it comes to displaying videos on terminal. the audio doesnt play in the moment the video does.
 
-so what do i do? if youre using the kitty terminal emulator, keep it the default, otherwise, change the line 69 in the file src/utils.
+so what do i do? if youre using the kitty terminal emulator, keep it the default, otherwise, change the line 69 in the file src/util.rs.
 
 ```rs
 std::thread::sleep(time::Duration::from_millis(2700));
