@@ -66,7 +66,7 @@ pub async fn play_video(video_file: String, sound_file: String) {
     //play video
     std::thread::spawn({
         move || {
-            std::thread::sleep(time::Duration::from_millis(500));
+            std::thread::sleep(time::Duration::from_millis(1000));
             play::play(sound_file);
         }
     });
