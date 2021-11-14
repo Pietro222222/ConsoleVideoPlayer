@@ -25,7 +25,7 @@ pub fn create_dirs() {
         let path = format!("{}/.console_player", &homedir);
         let console_player = Path::new(&path);
 
-        if !console_player.exists() || console_player.is_dir() {
+        if !console_player.exists() || !console_player.is_dir() {
             if let Err(err) = fs::create_dir_all(format!("{}/.console_player", homedir.clone())) {
                 panic!(
                     "Could not create console_player directory: {}",
