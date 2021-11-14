@@ -5,7 +5,7 @@ video.mp4
    |
    | -> Convert To Gif -> Play through Viu
    |
-   | -> Convert to mp4 -> Play audio
+   | -> Convert to mp3 -> Play audio
 
 ```
 
